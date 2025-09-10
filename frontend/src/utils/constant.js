@@ -1,4 +1,4 @@
-export const USER_API = "http://localhost:8000/user"; 
+export const USER_API = "https://mernflix-kcos.onrender.com/user";
 
 export const options = {
   method: "GET",
