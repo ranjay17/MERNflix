@@ -8,7 +8,7 @@ const app = express();
 dotenv.config();
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://papaya-pastelito-8054a9.netlify.app/",
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
 };
