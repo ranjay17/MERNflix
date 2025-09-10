@@ -8,7 +8,7 @@ const app = express();
 dotenv.config();
 
 const corsOptions = {
-  origin: "https://papaya-pastelito-8054a9.netlify.app/",
+  origin: "https://papaya-pastelito-8054a9.netlify.app",
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
 };
